@@ -1,0 +1,147 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#50e5de;
+}
+
+/* Main Container */
+
+.TOP{
+    width:70%;
+    margin:30px auto;
+    background:white;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 0 15px rgba(0,0,0,0.2);
+}
+
+/* College Name */
+
+.TOP2{
+    text-align:center;
+    color:darkred;
+    font-size:22px;
+    margin-bottom:10px;
+}
+
+/* Address */
+
+.TOP3{
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:15px;
+}
+
+/* Heading */
+
+.TOP4{
+    text-align:center;
+    background:brown;
+    color:white;
+    padding:12px;
+    border-radius:8px;
+    margin:15px 0;
+}
+
+/* Form */
+
+form{
+    margin-top:20px;
+}
+
+label{
+    font-weight:bold;
+    display:inline-block;
+    margin-bottom:6px;
+}
+
+/* Input Fields */
+
+input[type=text],
+input[type=email],
+input[type=date],
+input[type=file]{
+
+    width:100%;
+    padding:10px;
+    margin-top:5px;
+    margin-bottom:15px;
+    border:1px solid #ccc;
+    border-radius:6px;
+    font-size:16px;
+    outline:none;
+}
+
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=date]:focus{
+    border:2px solid brown;
+}
+
+/* Radio & Checkbox */
+
+input[type=radio],
+input[type=checkbox]{
+
+    width:auto;
+    margin-left:10px;
+    margin-right:5px;
+    margin-bottom:10px;
+}
+
+/* Horizontal Line */
+
+hr{
+    margin:20px 0;
+}
+
+/* Submit Button */
+
+input[type=submit]{
+
+    background:brown;
+    color:white;
+    border:none;
+    padding:12px 40px;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:18px;
+    transition:0.3s;
+}
+
+input[type=submit]:hover{
+
+    background:darkred;
+    transform:scale(1.05);
+}
+
+/* Footer */
+
+.bottom{
+
+    margin-top:30px;
+    text-align:center;
+    background:#222;
+    padding:20px;
+    border-radius:10px;
+}
+
+.bottom a{
+
+    color:white;
+    text-decoration:none;
+    margin:15px;
+    font-size:17px;
+    transition:0.3s;
+}
+
+.bottom a:hover{
+
+    color:yellow;
+}

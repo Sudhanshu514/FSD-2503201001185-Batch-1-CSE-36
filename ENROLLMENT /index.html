@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABES Engineering College Enrollment Form</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+<div class="TOP">
+
+    <div class="TOP2">
+        <h1><i>ABES ENGINEERING COLLEGE</i></h1>
+    </div>
+
+    <div class="TOP3">
+        <p>Dhundera, Ghaziabad Uttar Pradesh 201009</p>
+    </div>
+
+    <br>
+    <hr>
+
+    <div class="TOP4">
+        <h3>First Year Students Enrollment Form</h3>
+    </div>
+
+    <hr>
+
+    <form id="enrollmentForm">
+
+        <label for="name"><b>Name:</b></label>
+        <input type="text" id="name" name="userName">
+
+        <br><br>
+
+        <label for="fatherName"><b>Father's Name:</b></label>
+        <input type="text" id="fatherName" name="userFatherName">
+
+        <br><br>
+
+        <label for="dob"><b>Date Of Birth:</b></label>
+        <input type="date" id="dob" name="userDOB">
+
+        <br><br>
+
+        <label for="admissionNo"><b>Admission No.:</b></label>
+        <input type="text" id="admissionNo" name="userAdmissionNo">
+
+        <br><br>
+
+        <label><b>Branch:</b></label><br>
+
+        <label for="cse">CSE</label>
+        <input type="radio" id="cse" name="userBranch" value="CSE"><br>
+
+        <label for="ece">ECE</label>
+        <input type="radio" id="ece" name="userBranch" value="ECE"><br>
+
+        <label for="ee">EE</label>
+        <input type="radio" id="ee" name="userBranch" value="EE">
+
+        <br><br>
+
+        <label for="section"><b>Section:</b></label>
+        <input type="text" id="section" name="userSection">
+
+        <br><br>
+
+        <label><b>12th Subjects:</b></label><br>
+
+        <label for="physics">Physics</label>
+        <input type="checkbox" id="physics" name="subject" value="Physics">
+
+        <label for="maths">Maths</label>
+        <input type="checkbox" id="maths" name="subject" value="Maths">
+
+        <label for="chemistry">Chemistry</label>
+        <input type="checkbox" id="chemistry" name="subject" value="Chemistry">
+
+        <label for="cs">Computer Science</label>
+        <input type="checkbox" id="cs" name="subject" value="CS">
+
+        <label for="english">English</label>
+        <input type="checkbox" id="english" name="subject" value="English">
+
+        <label for="otherSubject">Other</label>
+        <input type="checkbox" id="otherSubject" name="subject" value="Other">
+
+        <br><br>
+
+        <label><b>Gender:</b></label><br>
+
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="Male"><br>
+
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value="Female"><br>
+
+        <label for="otherGender">Other</label>
+        <input type="radio" id="otherGender" name="gender" value="Other">
+
+        <br><br>
+
+        <label for="mobile"><b>Mobile No.</b></label>
+        <input type="text" id="mobile" name="userMobile">
+
+        <br><br>
+
+        <label for="email"><b>Email:</b></label>
+        <input type="email" id="email" name="userEmail">
+
+        <br><br>
+
+        <label for="aadhaar"><b>Aadhaar No.:</b></label>
+        <input type="text" id="aadhaar" class="adhaar">
+
+        <br><br>
+
+        <label for="photo"><b>Candidate Photo:</b></label>
+        <input type="file" id="photo" name="userPhoto">
+
+        <br><br>
+
+        <label for="sign"><b>Signature:</b></label>
+        <input type="file" id="sign" name="userSign">
+
+        <br><br>
+
+        <label for="aadhaarFile"><b>Candidate Aadhaar:</b></label>
+        <input type="file" id="aadhaarFile" name="userAadhaar">
+
+        <hr>
+
+        <center>
+            <label for="agree">
+                I have checked all the details given by me
+            </label>
+
+            <input type="checkbox" id="agree">
+        </center>
+
+        <br>
+
+        <center>
+            <input type="submit" value="Submit">
+        </center>
+
+    </form>
+
+</div>
+
+<div class="bottom">
+
+    <a href="#">More Info</a>
+    <a href="#">Help</a>
+    <a href="#">Refund Policy</a>
+    <a href="#">College Policy</a>
+    <a href="#">Facebook</a>
+    <a href="#">Instagram</a>
+    <a href="#">LinkedIn</a>
+
+</div>
+
+<script src="index.js"></script>
+
+</body>
+</html>
